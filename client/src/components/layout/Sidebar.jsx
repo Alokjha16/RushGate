@@ -12,9 +12,8 @@ const Sidebar = () => {
   // Navigation items synced with your App.jsx routes
   const menuItems = [
     { name: "Dashboard", icon: LayoutDashboard, path: "/dashboard" },
-    { name: "Resume Analysis", icon: FileSearch, path: "/dashboard/resume-engine" },
-    { name: "Resume Builder", icon: FilePlus, path: "/dashboard/build" },
-    { name: "Settings", icon: Settings, path: "/dashboard/settings" },
+   { name: "Buy product", icon: FilePlus, path: "/dashboard/engine" },
+    { name: "Settings", icon: Settings, path: "/dashboard/setting" },
   ];
 
   return (
