@@ -1,4 +1,4 @@
-kjhkj/k/import mongoose from "mongoose"; //db.js
+kjhkjhkj/k/import mongoose from "mongoose"; //db.js
 export const connectDB = async () =>{
     try {
         mongoose.connection.on('connected', ()=> console.log('Database Connected'));
