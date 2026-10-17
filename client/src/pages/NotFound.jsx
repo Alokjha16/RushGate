@@ -1,4 +1,4 @@
-';k'd';l;ls;'kk;lkjlkj;lklkjlkjimport React from "react";
+import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const NotFound = () => {
