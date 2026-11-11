@@ -1,4 +1,4 @@
-import mongoose from "mongoose"; //db.js
+lkjimport mongoose from "mongoose"; //db.js
 export const connectDB = async () =>{
     try {
         mongoose.connection.on('connected', ()=> console.log('Database Connected'));
